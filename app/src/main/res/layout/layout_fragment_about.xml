@@ -22,7 +22,7 @@
     <androidx.appcompat.widget.AppCompatTextView
             style="@style/AboutSummary"
             android:autoLink="web"
-            android:text="@string/donate_summary_link"/>
+            android:text="@string/donate_summary"/>
 
     <androidx.appcompat.widget.AppCompatTextView
             style="@style/AboutTitle"

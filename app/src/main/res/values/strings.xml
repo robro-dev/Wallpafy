@@ -48,8 +48,7 @@
     <!-- About Text -->
     <string name="app_version">Version</string>
     <string name="donate">Donate to support Wallpafy development</string>
-    <string name="donate_summary_link" translatable="false"><a href="https://www.paypal.com/donate?hosted_button_id=LMZ4P452NVX3N">@string/donate_summary_text</a></string>
-    <string name="donate_summary_text">Open PayPal in browser</string>
+    <string name="donate_summary" translatable="false"><a href="https://www.paypal.com/donate?hosted_button_id=LMZ4P452NVX3N">https://www.paypal.com/donate?hosted_button_id=LMZ4P452NVX3N</a></string>
     <string name="github">Find Wallpafy and give feedback on Github</string>
     <string name="github_summary" translatable="false"><a href="https://github.com/robro-dev/Wallpafy">github.com/robro-dev/Wallpafy</a></string>
     <string name="licence">Licence</string>

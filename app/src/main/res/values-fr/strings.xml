@@ -37,5 +37,4 @@
     <string name="licence_summary">GNU General Public Licence version 3 ou supérieure</string>
     <string name="wallpaper_list_updated_toast">La liste des fonds d\'écran a été mise à jour</string>
     <string name="write_cover_failed_toast">Une erreur est survenue lors du changement de fond d\'écran</string>
-    <string name="donate_summary_text">Ouvrir PayPal via le navigateur</string>
 </resources>
