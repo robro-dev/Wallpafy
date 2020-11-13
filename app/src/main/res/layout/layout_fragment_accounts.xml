@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/default_horizontal_padding"
+        tools:context=".fragment.AccountsFragment">
+
+    <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/spotify_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/account_button_height"
+            android:background="@color/green_spotify"
+            android:drawableStart="@drawable/ic_spotify_white_48dp"
+            android:paddingHorizontal="@dimen/account_button_padding_horizontal"
+            android:paddingVertical="@dimen/account_button_padding_vertical"
+            android:text="@string/spotify_button" />
+
+    <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/account_button_height"
+            android:background="?android:colorBackground"
+            android:enabled="false"
+            android:paddingHorizontal="@dimen/account_button_padding_horizontal"
+            android:paddingVertical="@dimen/account_button_padding_vertical"
+            android:text="@string/more_platform" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,47 @@
+<resources>
+    <!-- Wallpaper Frequency Preference -->
+    <string-array name="wallpaper_frequency_entries">
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>4 hours</item>
+        <item>8 hours</item>
+        <item>12 hours</item>
+        <item>1 day</item>
+        <item>1 week</item>
+    </string-array>
+
+    <string-array name="wallpaper_frequency_values">
+        <!-- Intervals are in seconds -->
+        <item>1800</item>
+        <item>3600</item>
+        <item>7200</item>
+        <item>14400</item>
+        <item>28800</item>
+        <item>43200</item>
+        <item>86400</item>
+        <item>604800</item>
+    </string-array>
+
+    <!-- Update Frequency Preference -->
+    <string-array name="update_frequency_entries">
+        <item>Never</item>
+        <item>12 hours</item>
+        <item>1 day</item>
+        <item>2 days</item>
+        <item>1 week</item>
+        <item>2 weeks</item>
+        <item>1 month</item>
+    </string-array>
+
+    <string-array name="update_frequency_values">
+        <!-- Intervals are in seconds-->
+        <item>0</item>
+        <item>43200</item>
+        <item>86400</item>
+        <item>172800</item>
+        <item>604800</item>
+        <item>1209600</item>
+        <item>2592000</item>
+    </string-array>
+</resources>

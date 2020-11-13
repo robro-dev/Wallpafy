@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="@dimen/default_horizontal_padding"
+        android:layout_gravity="end">
+
+    <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/profile_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:adjustViewBounds="true"
+            android:padding="@dimen/profile_picture_padding"
+            android:src="@drawable/ic_account_circle_dark_wallpafy_36dp" />
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/profile_picture_logo_size"
+            android:layout_height="@dimen/profile_picture_logo_size"
+            android:layout_gravity="end|bottom"
+            android:layout_marginBottom="@dimen/profile_picture_logo_margin"
+            android:layout_marginEnd="@dimen/profile_picture_logo_margin"
+            app:cardCornerRadius="@dimen/profile_picture_logo_radius"
+            app:cardPreventCornerOverlap="false">
+
+        <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/platform_logo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_highlight_off_red_600_18dp"
+                android:scaleType="centerCrop"/>
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ListPreference
+            app:defaultValue="3600"
+            app:entries="@array/wallpaper_frequency_entries"
+            app:entryValues="@array/wallpaper_frequency_values"
+            app:key="@string/wallpaper_frequency_key"
+            app:title="@string/wallpaper_frequency_title"
+            app:useSimpleSummaryProvider="true" />
+
+    <ListPreference
+            app:defaultValue="0"
+            app:entries="@array/update_frequency_entries"
+            app:entryValues="@array/update_frequency_values"
+            app:key="@string/update_frequency_key"
+            app:title="@string/update_frequency_title"
+            app:useSimpleSummaryProvider="true" />
+
+    <PreferenceCategory app:title="@string/other_header">
+
+        <SwitchPreferenceCompat
+                app:key="@string/compilations_key"
+                app:summaryOff="@string/compilations_summary_off"
+                app:summaryOn="@string/compilations_summary_on"
+                app:title="@string/compilations_title" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

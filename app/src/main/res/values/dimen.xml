@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Margin-->
+    <dimen name="default_margin">5dp</dimen>
+    <dimen name="default_vertical_margin">5dp</dimen>
+    <dimen name="default_horizontal_margin">5dp</dimen>
+
+    <!-- Padding -->
+    <dimen name="global_padding">10dp</dimen>
+    <dimen name="default_vertical_padding">10dp</dimen>
+    <dimen name="default_horizontal_padding">10dp</dimen>
+
+    <!-- Layout-->
+    <dimen name="match_constraints">0dp</dimen>
+
+    <!-- Home -->
+    <dimen name="home_text_size">16sp</dimen>
+
+    <!-- Accounts -->
+    <dimen name="account_button_padding_horizontal">5dp</dimen>
+    <dimen name="account_button_padding_vertical">2.5dp</dimen>
+    <dimen name="account_button_height">48dp</dimen>
+
+    <!-- About -->
+    <dimen name="about_title_text_size">18sp</dimen>
+    <dimen name="about_summary_margin">20dp</dimen>
+
+    <!-- Nav Header dimens-->
+    <dimen name="nav_header_height">84dp</dimen>
+    <dimen name="nav_header_spacing">5dp</dimen>
+    <dimen name="nav_header_logo_size">64dp</dimen>
+    <dimen name="nav_header_platform_padding">5dp</dimen>
+
+    <!-- Profile Picture -->
+    <dimen name="profile_picture_padding">6dp</dimen>
+    <dimen name="profile_picture_logo_size">18dp</dimen>
+    <dimen name="profile_picture_logo_margin">2dp</dimen>
+    <dimen name="profile_picture_logo_radius">10dp</dimen>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wallpafy</string>
+    <string name="about">À propos</string>
+    <string name="settings">Paramètres</string>
+    <string name="more_platform">Plus de platformes à venir …</string>
+    <string name="recently_played">Historique</string>
+    <string name="manage_accounts">Gérer les comptes</string>
+    <string name="delete_cover">Supprimer</string>
+    <string name="app_version">Version</string>
+    <string name="use_cover">Choisir comme fond d\'écran</string>
+    <string name="other_header">Autres</string>
+    <string name="spotify_button">Connecter Spotify</string>
+    <string name="source">Source :</string>
+    <string name="playlist_to_load">Playlist sélectionnée :</string>
+    <string name="playlist">Playlist</string>
+    <string name="platform_access_failed_toast">Échec d\'accés à la platforme. Vérifiez votre connexion.</string>
+    <string name="log_out_toast">Connectez vous sur n\'importe quelle platforme pour commencer</string>
+    <string name="log_out_dialog_title">Déconnexion</string>
+    <string name="log_out_dialog_positive">Continuer</string>
+    <string name="log_out_dialog_negative">Annuler</string>
+    <string name="log_out_dialog_message">Vous allez être déconnecté</string>
+    <string name="log_out">Déconnecté</string>
+    <string name="licence">Licence</string>
+    <string name="github">Retrouvez Wallpafy et donnez votre avis sur Github</string>
+    <string name="donate">Faites un don pour supporter le développement de Wallpafy</string>
+    <string name="custom">Personnalisée</string>
+    <string name="cover_desc">Couverture d\'album</string>
+    <string name="compilations_title">Ignorer les compilations</string>
+    <string name="compilations_summary_off">Garder les compilations dans la liste de fond d\'écan</string>
+    <string name="compilations_summary_on">Retirer les compilations de la liste de fond d\'écran</string>
+    <string name="connection_failed_toast">Échec de connexion à la platforme. Vérifiez votre connexion.</string>
+    <string name="confirm_button">Changer mon fond d\'écran</string>
+    <string name="wallpaper_frequency_title">Changer de fond d\'écran tous les</string>
+    <string name="update_frequency_title">Rafraichir la liste de fond d\'écran tous les</string>
+    <string name="nav_header_desc">Image de profile</string>
+    <string name="licence_summary">GNU General Public Licence version 3 ou supérieure</string>
+    <string name="wallpaper_list_updated_toast">La liste des fonds d\'écran a été mise à jour</string>
+    <string name="write_cover_failed_toast">Une erreur est survenue lors du changement de fond d\'écran</string>
+    <string name="donate_summary_text">Ouvrir PayPal via le navigateur</string>
+</resources>
