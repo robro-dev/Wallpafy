@@ -5,6 +5,7 @@ import android.net.Uri
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.robro.wallpafy.platform.PlatformAPI
+import com.robro.wallpafy.platform.PlatformsID
 import com.robro.wallpafy.platform.spotify.SpotifyAPI.Companion.RC_AUTH
 import com.robro.wallpafy.platform.spotify.data.*
 import net.openid.appauth.AuthorizationRequest
@@ -31,7 +32,7 @@ class SpotifyAPI(private val context: Context) : PlatformAPI {
         private const val TAG = "SpotifyAPI"
 
         private const val REDIRECT_URI = "com.robro.wallpafy://callback"
-        private const val CLIENT_ID = "8880f020e03245faa8def2915c26c149"
+        private const val CLIENT_ID = PlatformsID.SPOTIFY_CLIENT_ID
         private const val SCOPE =
             "user-read-recently-played playlist-read-private playlist-read-collaborative"
         private const val WEB_API_URL = "https://api.spotify.com/v1/"
