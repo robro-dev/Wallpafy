@@ -92,6 +92,7 @@ class PlatformManager(private val context: Context, private val showErrors: Bool
         authState.update(response, exception)
         if (exception != null) {
             Log.e(TAG, exception.error + " : " + exception.errorDescription)
+            currentPlatform = PlatformEnum.LOG_OUT
             connectionFailedToast.show()
             return
         }
@@ -101,6 +102,7 @@ class PlatformManager(private val context: Context, private val showErrors: Bool
                 authState.update(resp, ex)
                 if (ex != null) {
                     Log.e(TAG, ex.error + " : " + ex.errorDescription)
+                    currentPlatform = PlatformEnum.LOG_OUT
                     connectionFailedToast.show()
                     return@performTokenRequest
                 }
